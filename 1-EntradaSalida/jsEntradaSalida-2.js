@@ -4,6 +4,6 @@ function Mostar()
 {
 	var dato;
     dato = prompt("");
-    alert(dato)
+    alert(dato);
 }
 

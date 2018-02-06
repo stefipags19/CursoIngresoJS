@@ -38,7 +38,7 @@ function multiplicar()
     num1 = parseInt(num1);
     num2 = parseInt(num2);
     multiplicacion = num1 * num2;
-    alert("La multiplicacion es " + multilplicacion);
+    alert("La multiplicacion es " + multiplicacion);
 }
 
 function dividir()

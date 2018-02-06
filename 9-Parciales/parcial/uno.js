@@ -2,8 +2,9 @@
 function Mostrar()
 {
     var base;
-    perimetro = base * 4;
     base = document.getElementById("laBase").valor;
+    perimetro = base * 4;
+    base = parseInt(base);
     alert("El perimetro de un cuadrado es " + perimetro);
 
 }

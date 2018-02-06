@@ -32,7 +32,7 @@ function multiplicar()
 { 
 	var num1;
     var num2;
-    var multilplicacion;
+    var multiplicacion;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
     num1 = parseInt(num1);

@@ -4,8 +4,6 @@ function Mostrar()
   importe = prompt("");
   importe = parseInt(importe);
   importeFinal = document.getElementById("ImporteFinal").value;
-  var importeFinal;
-  var iva;
   iva = 21;
   iva = parseInt(21);
   

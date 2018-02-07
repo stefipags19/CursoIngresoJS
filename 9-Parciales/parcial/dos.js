@@ -1,6 +1,7 @@
 function Mostrar()
 { 
   var importe;
+  var iva;
   importe = prompt("");
   importe = parseInt(importe);
   importeFinal = document.getElementById("ImporteFinal").value;

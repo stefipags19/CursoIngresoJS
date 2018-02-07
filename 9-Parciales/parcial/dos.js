@@ -11,6 +11,7 @@ function Mostrar()
   iva = parseInt(21);
   
   importeFinal = importe + iva;
+  importeFinal = parseInt(ImporteFinal);
 
   alert("El importe final es " + ImporteFinal);
   

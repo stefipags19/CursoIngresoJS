@@ -9,9 +9,9 @@ function Mostrar()
 	importe = prompt("");
 	importe = parseInt(importe);
 	importe = document.getElementById("importe").value;
-	
-	importeFinal = importe * 1.21;
 	importeFinal = parseInt(importeFinal);
+	importeFinal = importe * 1.21;
+	
 
 	
 

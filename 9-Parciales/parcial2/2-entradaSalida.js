@@ -6,7 +6,7 @@ function Mostrar()
 	var importeFinal;
 	importe = prompt("");
 	importe = parseInt(importe);
-	importe = document.getElementById("importe").value;
+	
 	importeFinal = importe * 1.21;
 	importeFinal = parseInt(importeFinal);
 

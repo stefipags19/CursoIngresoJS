@@ -7,11 +7,11 @@ function Mostrar()
 	
 	
 	importe = prompt("");
-	importe = parseInt(importe);
-	importe = document.getElementById("importe").value;
-	importeFinal = parseInt(importeFinal);
-	importeFinal = importe * 1.21;
 	
+	importe = document.getElementById("importe").value;
+	importe = parseInt(importe);
+	importeFinal = importe * 1.21;
+	importeFinal = parseInt(importeFinal);
 
 	
 

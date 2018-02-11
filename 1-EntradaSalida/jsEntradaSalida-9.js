@@ -8,6 +8,10 @@ function MostrarAumento()
     importe = document.getElementById("sueldo").valor;
     importe = parseInt(importe);
     
+    sueldo = document.getElementById("resultado").valor;
+    sueldo = importe * 0.1;
+
+    
 
 
 

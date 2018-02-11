@@ -13,7 +13,7 @@ function Mostrar()
 	
 	importe = importe * 1.21;
 
-	alert("El importe final es " + importeFinal);
+	alert("El importe final es " + importe);
 
 
 

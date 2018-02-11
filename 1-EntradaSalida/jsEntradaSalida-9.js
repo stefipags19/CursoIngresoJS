@@ -5,11 +5,12 @@ en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
     var importe;
+    var resultado;
     importe = document.getElementById("sueldo").valor;
     importe = parseInt(importe);
-    
-    resultado = document.getElementById("resultado").valor;
     resultado = importe * 0.1;
+    resultado = document.getElementById("resultado").valor;
+    
 
     
 

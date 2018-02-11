@@ -12,6 +12,7 @@ function SacarResto()
     num1 = parseInt(num1);
     num2 = parseInt(num2);
     resto = num1 % num2; 
+    resto = parseInt(resto);
     alert("El resto es " + resto);
 
 

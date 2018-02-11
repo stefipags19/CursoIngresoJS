@@ -8,11 +8,11 @@ function Mostrar()
 	
 	
 	importe = prompt("");
-	importe = parseInt(importe);
+	
 	
 	
 	importeFinal = importe * 1.21;
-
+	importeFinal = parseInt(importeFinal);
 	alert("El importe final es " + importeFinal);
 
 

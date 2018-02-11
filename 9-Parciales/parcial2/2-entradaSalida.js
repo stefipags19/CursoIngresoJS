@@ -3,17 +3,17 @@ function Mostrar()
 {
 	alert("Funciona 2-EntradaSalida");
 	var importe;
+	var importeFinal;
 	
 	
 	
 	importe = prompt("");
 	importe = parseInt(importe);
 	
-	importe = document.getElementById("importe").value;
 	
-	importe = importe * 1.21;
+	importeFinal = importe * 1.21;
 
-	alert("El importe final es " + importe);
+	alert("El importe final es " + importeFinal);
 
 
 

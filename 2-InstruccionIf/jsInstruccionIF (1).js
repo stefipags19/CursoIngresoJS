@@ -1,8 +1,9 @@
 function Mostrar()
 {
 //tomo la edad  
-prompt("Edad");
+
 var edad;
+edad = document.getElementById("edad").value;
 
 if(edad === 15) {
     console.log("niña bonita");

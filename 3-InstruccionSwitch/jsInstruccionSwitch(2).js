@@ -32,7 +32,7 @@ switch(mesDelAño)
         alert("Ya pasamos el frio, ahora calor!");
         break;
     }
-    case "December" :
+    case "Deiciembre" :
     {
         alert("Ya pasamos el frio, ahora calor!");
         break;

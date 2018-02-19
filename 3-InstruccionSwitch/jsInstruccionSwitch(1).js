@@ -8,22 +8,22 @@ switch(mesDelAño)
 {
     case "Enero" :
     {
-        console.log("¡Que comiences bien el año!.");
+        alert("¡Que comiences bien el año!.");
         break;
     }
     case "Marzo" :
     {
-        console.log("¡A clases!.");
+        alert("¡A clases!.");
         break;
     }
     case "Julio" :
     {
-        console.log("¡Se vienen las vacaciones!.");
+        alert("¡Se vienen las vacaciones!.");
         break;
     }
     case "Diciembre" :
     {
-        console.log("¡Felices fiestas!.");
+        alert("¡Felices fiestas!.");
         break;
     }
 }

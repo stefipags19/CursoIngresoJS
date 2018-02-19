@@ -42,8 +42,7 @@ switch(mesDelaño)
         alert("Ya pasamos el frio, ahora calor!");
         break;
     }
-
-    case "Febrero": "Marzo",  "Abril", "Mayo", "Junio" :
+    case "Febrero" :
     {
         alert("Falta para el invierno");
         break;

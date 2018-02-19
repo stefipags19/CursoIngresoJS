@@ -5,7 +5,7 @@ var mesDelAño;
 var mesDelAño = document.getElementById('mes').value;
 
 
-switch(mesDelaño)
+switch(mesDelAño)
 {
     case "Julio" :
     {

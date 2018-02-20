@@ -5,7 +5,7 @@ function Mostrar()
 
 	while(numero >= 1 && numero <= 10) {
 		alert("Numero validado");
-		numero = false;
+		break;
 	}
 
 

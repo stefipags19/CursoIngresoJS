@@ -3,7 +3,7 @@ function Mostrar()
 	alert('iteración while');
 
 	var contador;
-	contador = 1;
+	contador = 10;
 
 	while(contador <= 10) {
 		alert("Numero : " + contador);

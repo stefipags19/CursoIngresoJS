@@ -7,7 +7,7 @@ while(sexo != "f" || sexo != "m") {
     sexo = prompt("ingrese f ó m .");
 }
 
-document.getElementById('Sexo').value=sexo;
+sexo = document.getElementById('Sexo').value;
 
 
 

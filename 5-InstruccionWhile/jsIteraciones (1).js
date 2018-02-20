@@ -6,7 +6,7 @@ function Mostrar()
 	contador = 1;
 
 	while(contador <= 10) {
-		alert("Numero :" + contador);
+		alert("Numero : " + contador);
 		contador = contador + 1;
 	}
 

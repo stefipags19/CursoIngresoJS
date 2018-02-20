@@ -3,10 +3,9 @@ function Mostrar()
 
 var clave = prompt("ingrese el número clave.");
 
-clave = "utn750"
-while(clave) {
+while(clave === "utn750") {
     alert("Clave correcta");
-    break;
+    clave != "utn750";
 }
 
 

@@ -39,19 +39,19 @@ function ComenzarIngreso ()
     var estadoCivil;
     switch(estadoCivil)
     {
-        case 1: {
+        case "1": {
             estadoCivil = "Soltero";
             break;
         }
-        case 2: {
+        case "2": {
             estadoCivil = "Casado";
             break;
         }
-        case 3: {
+        case "3": {
             estadoCivil = "Divorciado";
             break;
         }
-        case 4: {
+        case "4": {
             estadoCivil = "Viudo";
             break;
         }

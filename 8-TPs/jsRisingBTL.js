@@ -16,7 +16,7 @@ function ComenzarIngreso ()
     var numeroLegajo = prompt("Ingrese numero de legajo numérico de 4 cifras, sin ceros a la izquierda.");
     var nacionalidad = prompt("Ingrese nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.");
 
-    while(edad < 18 || edad > 90){
+    while(edad < 18 || edad > 90 || isNaN(edad)){
         edad = prompt("Por favor ingrese un valor entre 18 y 90 años inclusive.");
     }
     document.getElementById("Edad").value = edad;

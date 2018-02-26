@@ -24,6 +24,12 @@ function ComenzarIngreso ()
     while(sexo != "f" && sexo != "m"){
         sexo = prompt(" Por favor ingrese f ó m.");
     }
+    if(sexo === "f") {
+        sexo = "mujer";
+    }
+    else if(sexo === "m") {
+        sexo = "hombre";
+    }
     document.getElementById("Sexo").value = sexo;
 
     while(estadoCivil != "1" && estadoCivil != "2" && estadoCivil != "3" && estadoCivil != "4"){

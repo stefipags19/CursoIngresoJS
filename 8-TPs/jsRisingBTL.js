@@ -30,11 +30,6 @@ function ComenzarIngreso ()
     else if(sexo === "M") {
         sexo = "Hombre";
     }
-    var str1 = "F";
-    var str2 = str1. toLowerCase();
-    var str3 = "M";
-    var str4 = str3. toLowerCase();
-
     document.getElementById("Sexo").value = sexo;
 
     while(estadoCivil != "1" && estadoCivil != "2" && estadoCivil != "3" && estadoCivil != "4"){

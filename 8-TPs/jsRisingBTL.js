@@ -36,7 +36,7 @@ function ComenzarIngreso ()
     }
     document.getElementById("Sueldo").value = sueldoBruto;
 
-    while(numeroLegajo < 1000 && numeroLegajo > 10000) {
+    while(numeroLegajo > 1000 && numeroLegajo < 10000) {
         numeroLegajo = prompt("Por favor ingrese un valor numérico de 4 cifras, sin ceros a la izquierda.");
     }
     document.getElementById("Legajo").value = numeroLegajo;

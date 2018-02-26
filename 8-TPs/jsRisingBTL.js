@@ -16,7 +16,7 @@ function ComenzarIngreso ()
     var numeroLegajo = prompt("Ingrese numero de legajo");
     var nacionalidad = prompt("Ingrese nacionalidad");
 
-    while(edad < 18 || edad > 90 ){
+    while(edad < 18 || edad > 90){
         edad = prompt(" Por favor ingrese un valor entre 18 y 90 años inclusive.");
     }
     document.getElementById("Edad").value = edad;

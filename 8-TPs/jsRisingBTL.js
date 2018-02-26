@@ -23,6 +23,8 @@ function ComenzarIngreso ()
 
     while(sexo != "F" && sexo != "M"){
         sexo = prompt("Por favor ingrese f ó m.");
+        string = "F".toLowerCase();
+        string = "M".toLowerCase();
     }
     if(sexo === "F") {
         sexo = "Mujer";

@@ -22,16 +22,19 @@ function ComenzarIngreso ()
     document.getElementById("Edad").value = edad;
 
     while(sexo != "F" && sexo != "M"){
-        sexo = prompt("Por favor ingrese f ó m.");
-        string = "F".toLowerCase();
-        string = "M".toLowerCase();
+        sexo = prompt("Por favor ingrese F ó M.");
     }
-    if(sexo === "F") {
+    if(sexo === "F") { 
         sexo = "Mujer";
     }
     else if(sexo === "M") {
         sexo = "Hombre";
     }
+    var str1 = "F";
+    var str2 = str1. toLowerCase();
+    var str3 = "M";
+    var str4 = str3. toLowerCase();
+
     document.getElementById("Sexo").value = sexo;
 
     while(estadoCivil != "1" && estadoCivil != "2" && estadoCivil != "3" && estadoCivil != "4"){

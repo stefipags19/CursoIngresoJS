@@ -9,31 +9,31 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
-    var edad = prompt("Ingrese edad");
-    var sexo = prompt("Ingrese sexo");
-    var estadoCivil = prompt("Ingrese Estado Civil")
-    var sueldoBruto = prompt("Ingrese sueldo bruto");
-    var numeroLegajo = prompt("Ingrese numero de legajo");
-    var nacionalidad = prompt("Ingrese nacionalidad");
+    var edad = prompt("Ingrese edad entre 18 y 90 años inclusive");
+    var sexo = prompt("Ingrese sexo “M” para masculino y “F” para femenino");
+    var estadoCivil = prompt("Ingrese Estado Civil, 1-para soltero, 2-para casados, 3-para divorciados y 4-para viudos")
+    var sueldoBruto = prompt("Ingrese sueldo bruto, no menor a 8000");
+    var numeroLegajo = prompt("Ingrese numero de legajo numérico de 4 cifras, sin ceros a la izquierda.");
+    var nacionalidad = prompt("Ingrese nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.");
 
     while(edad < 18 || edad > 90){
-        edad = prompt(" Por favor ingrese un valor entre 18 y 90 años inclusive.");
+        edad = prompt("Por favor ingrese un valor entre 18 y 90 años inclusive.");
     }
     document.getElementById("Edad").value = edad;
 
-    while(sexo != "f" && sexo != "m"){
-        sexo = prompt(" Por favor ingrese f ó m.");
+    while(sexo != "F" && sexo != "M"){
+        sexo = prompt("Por favor ingrese f ó m.");
     }
-    if(sexo === "f") {
-        sexo = "mujer";
+    if(sexo === "F") {
+        sexo = "Mujer";
     }
-    else if(sexo === "m") {
-        sexo = "hombre";
+    else if(sexo === "M") {
+        sexo = "Hombre";
     }
     document.getElementById("Sexo").value = sexo;
 
     while(estadoCivil != "1" && estadoCivil != "2" && estadoCivil != "3" && estadoCivil != "4"){
-        estadoCivil = prompt(" Por favor ingrese 1-para soltero, 2-para casados, 3-para divorciados y 4-para viudos");
+        estadoCivil = prompt("Por favor ingrese 1-para soltero, 2-para casados, 3-para divorciados y 4-para viudos");
     }
     
     var estadoCivil;
@@ -59,7 +59,7 @@ function ComenzarIngreso ()
     document.getElementById("EstadoCivil").value = estadoCivil;
 
     while(sueldoBruto < 8000) {
-        sueldoBruto = prompt(" Por favor ingrese un valor no menor a 8000");
+        sueldoBruto = prompt("Por favor ingrese un valor no menor a 8000");
     }
     document.getElementById("Sueldo").value = sueldoBruto;
 
@@ -70,6 +70,22 @@ function ComenzarIngreso ()
 
     while(nacionalidad != "A" && nacionalidad != "E" && nacionalidad != "N"){
         nacionalidad = prompt("Por favor ingrese el valor “A” para argentinos, “E” para extranjeros, “N” para nacionalizados");
+    }
+     var nacionalidad;
+    switch (nacionalidad)
+    {
+        case "A": {
+            nacionalidad = "Argentino";
+            break;
+        }
+        case "E": {
+            nacionalidad = "Extranjero";
+            break;
+        }
+        case "N": {
+            nacionalidad = "Nacionalizado";
+            break;
+        }
     }
     document.getElementById("Nacionalidad").value = nacionalidad;
  

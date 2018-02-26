@@ -29,6 +29,27 @@ function ComenzarIngreso ()
     while(estadoCivil != "1" && estadoCivil != "2" && estadoCivil != "3" && estadoCivil != "4"){
         estadoCivil = prompt(" Por favor ingrese 1-para soltero, 2-para casados, 3-para divorciados y 4-para viudos");
     }
+    
+    var estadoCivil;
+    switch(estadoCivil)
+    {
+        case 1: {
+            estadoCivil = "Soltero";
+            break;
+        }
+        case 2: {
+            estadoCivil = "Casado";
+            break;
+        }
+        case 3: {
+            estadoCivil = "Divorciado";
+            break;
+        }
+        case 4: {
+            estadoCivil = "Viudo";
+            break;
+        }
+    }
     document.getElementById("EstadoCivil").value = estadoCivil;
 
     while(sueldoBruto < 8000) {
